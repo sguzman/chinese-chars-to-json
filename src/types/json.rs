@@ -5,7 +5,7 @@ use serde::{Deserialize, Serialize};
 
 #[derive(Serialize, Deserialize, Debug)]
 pub struct Person {
-    character: String,
-    pronounce: String,
-    definition: String
+    pub character: String,
+    pub pronounce: String,
+    pub definition: String,
 }

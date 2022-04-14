@@ -1,6 +1,6 @@
 mod app;
-mod declare;
 mod behavior;
+mod declare;
 mod types;
 
 fn main() {
